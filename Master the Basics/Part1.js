@@ -29,9 +29,9 @@
 // Q. Swap two variables via 3 methods;
 
 // 1st method:
-let a = 10;
-let b = 20;
-let c;
+// let a = 10;
+// let b = 20;
+// let c;
 
 // c = a; // c = 10, a = 10;
 // a = b; // a = 20, b = 20
@@ -51,6 +51,32 @@ let c;
 // console.log(a,b)
 
 
+
+
+// Operators and their questions:
+
+// Q. Relational Questions:
+
+// >, <, <=, >=, !=, =, ==, ===
+
+// console.log(10<5)
+
+var a = 12; // Assignment op
+
+
+// Q. Logical op
+// &&, ||
+
+// console.log(10>6 && 5<9)
+
+// console.log(10<6 || 15<9 || 18>9)
+
+
+// Q. Unary Question ++ --
+
+let i = 11; 
+i = i++ + ++i;
+console.log(i)
 
 
 
