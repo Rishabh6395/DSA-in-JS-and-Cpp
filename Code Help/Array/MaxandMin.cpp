@@ -5,27 +5,32 @@ using namespace std;
 
 
 int getMax(int num[], int n){
-    int max = INT_MIN;
+
+    int maxi = INT_MIN;
+
     for(int i = 0; i< n; i++){
-        if(num[i] > max){
-            max = num[i];
-        }
+
+        maxi = max(maxi, num[i]);
+        // if(num[i] > max){
+        //     max = num[i];
+        // }
     }
 
-    // returning max
-    return max;
+    // returning max value
+    return maxi;
     
 }
 int getMin(int num[], int n){
-    int min = INT_MAX;
+    int mini = INT_MAX;
     for(int i = 0; i< n; i++){
-        if(num[i] < min){
-            min = num[i];
-        }
+        mini = min(mini, num[i]);
+        // if(num[i] < min){
+        //     min = num[i];
+        // }
     }
 
     // returning min
-    return min;
+    return mini;
 
 }
 
